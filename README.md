@@ -4,4 +4,4 @@
 
 <p><a href="https://www.youtube.com/watch?v=xrDw6I4MSBkY">HTML5 Semantic Containers Codealong</a></p>.
 
-Make sure you use your code from the previous codealong for this codealong!
+After you fork and clone, copy your code from the previous codealong into this repo.
