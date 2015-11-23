@@ -1,10 +1,7 @@
-Exceptional Realty Group Website
----
+# HTML5 Semantic Containers Codealong
 
-# Description
+<iframe width="640" height="480" src="//www.youtube.com/embed/xrDw6I4MSBk?rel=0&modestbranding=1" frameborder="0" allowfullscreen></iframe>
 
-This is an example site for the Intro to Front-end Web Development Course at The Flatiron School.
+<p><a href="https://www.youtube.com/watch?v=xrDw6I4MSBkY">HTML5 Semantic Containers Codealong</a></p>.
 
-# Contact
-
-email: jon@flatironschool.com
+Please fork and clone the starter code from this repository for the code along.
