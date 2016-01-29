@@ -5,4 +5,4 @@
 <p><a href="https://www.youtube.com/watch?v=xrDw6I4MSBkY">HTML5 Semantic Containers Codealong</a></p>.
 
 Please fork and clone the starter code from this repository for the code along.
-<a href='https://learn.co/lessons/html5-semantic-containers-code-along' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/html5-semantic-containers-code-along' title='HTML5 Semantic Containers Codealong'>HTML5 Semantic Containers Codealong</a> on Learn.co and start learning to code for free.</p>
