@@ -6,4 +6,6 @@ tags:
  - elements
 type:
   - code along
+tests:
+ - green_onion
 resources: 0
