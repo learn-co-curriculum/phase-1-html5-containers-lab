@@ -129,8 +129,10 @@ Now add another surrounding our video player.
 
 Don't forget to indent the content such as the video and image that are nested inside of our `<figure>` elements. Then you can save this file and give it a preview in the browser. Since we just surrounded the preexisting content it won't look too different, although the HTML5 semantic elements do act as boxes that will stack vertically giving some separation between each and the figures do have some default spacing that will indent the video and image a bit.
 
-Normally you would add these HTML5 semantic elements where applicable to all of your site pages. I will add these to the other pages for you and the next code along will already habe them present in its starter code. We just did it on the index page for some practice. Nice work!
+Normally you would add these HTML5 semantic elements where applicable to all of your site pages. I will add these to the other pages for you and the next code along will already have them present in its starter code. We just did it on the index page for some practice. Nice work!
 
 It's now time to version our changes using Git. To do so, in Terminal type `git add index.html` and press return. Then type `git commit -m "add semantic containers to index"` and press return. Then push up this feature branch `git push -u origin html5-layout` and press return. Next merge the changes into your master branch. Type `git checkout master` and press return, then `git merge html5-layout` and press return. Then `git push origin master` and press return.
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/html5-semantic-containers-code-along' title='HTML5 Semantic Containers Codealong'>HTML5 Semantic Containers Code along</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/html5-semantic-containers-code-along'>HTML5 Semantic Elements Code Along</a> on Learn.co and start learning to code for free.</p>
