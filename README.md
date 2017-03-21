@@ -23,7 +23,7 @@ To get started create a feature branch in Terminal by typing `git checkout -b ht
 
 #### Header
 
-Start by surrounding your `<h1>` and `<h2>`, as well a the `<a>` links of your main navigation in a `<header` element like so,
+Start by surrounding your `<h1>` and `<h2>`, as well a the `<a>` links of your main navigation in a `<header>` element like so,
 
 ```html
 <body>
