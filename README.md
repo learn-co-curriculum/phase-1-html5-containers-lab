@@ -35,7 +35,7 @@ Start by surrounding your `<h1>` and `<h2>`, as well a the `<a>` links of your m
   </header>
 ```
 
-On line 2 the `<header>` element gives importance to the content within it, defining that the content as the head of our document.
+On line 2 the `<header>` element gives importance to the content within it, defining that content as the head of our document.
 
 #### Nav
 
