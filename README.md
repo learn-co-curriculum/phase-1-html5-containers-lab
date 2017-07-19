@@ -1,4 +1,4 @@
-# HTML5 Semantic Containers Code Along
+# HTML5 Semantic Containers Code-along
 
 ## Objectives
 
@@ -23,7 +23,7 @@ To get started create a feature branch in Terminal by typing `git checkout -b ht
 
 #### Header
 
-Start by surrounding your `<h1>` and `<h2>`, as well a the `<a>` links of your main navigation in a `<header>` element like so,
+Start by surrounding your `<h1>` and `<h2>`, as well as the `<a>` links of your main navigation in a `<header>` element like so,
 
 ```html
 <body>
@@ -133,6 +133,4 @@ Normally you would add these HTML5 semantic elements where applicable to all of 
 
 It's now time to version our changes using Git. To do so, in Terminal type `git add index.html` and press return. Then type `git commit -m "add semantic containers to index"` and press return. Then push up this feature branch `git push -u origin html5-layout` and press return. Next merge the changes into your master branch. Type `git checkout master` and press return, then `git merge html5-layout` and press return. Then `git push origin master` and press return.
 
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/html5-semantic-containers-code-along' title='HTML5 Semantic Containers Codealong'>HTML5 Semantic Containers Code along</a> on Learn.co and start learning to code for free.</p>
-
-<p class='util--hide'>View <a href='https://learn.co/lessons/html5-semantic-containers-code-along'>HTML5 Semantic Elements Code Along</a> on Learn.co and start learning to code for free.</p>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/html5-semantic-containers-code-along' title='HTML5 Semantic Containers Code-along'>HTML5 Semantic Containers Code-along</a> on Learn.co and start learning to code for free.</p>
