@@ -73,8 +73,6 @@ Next we will section off our page by adding a `<section>` element wrapping our
 `<img>` image and `<p>`paragraphs like so,
 
 ```html
-...
-  </header>
   <section id="featured-property">
     <img src="images/intro-pic.jpg" alt="A beautiful living room." title="Welcome to Exceptional Realty Group">
     <p>Lorem ipsum dolor sit amet...</p>
