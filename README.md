@@ -39,7 +39,6 @@ Start by surrounding your `<h1>` and `<h2>`, as well as the `<a>` links of your
 main navigation in a `<header>` element like so,
 
 ```html
-<body>
   <header>
     <h1>Exceptional</h1>
     <h2>Realty Group</h2>
@@ -56,7 +55,6 @@ defining that content as the head of our document.
 Next let's wrap our links in the `<nav>` element like so,
 
 ```html
-<body>
   <header>
     <h1>Exceptional</h1>
     <h2>Realty Group</h2>
