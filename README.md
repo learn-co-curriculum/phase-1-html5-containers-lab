@@ -10,10 +10,19 @@ Building upon previous code alongs, in this exercise you will add HTML5 Semantic
 
 ## Instructions
 
-- Fork this repository on Github.
-- Use Terminal to clone your forked copy.
-- Then change directory into the repository folder.
-- Code along with the provided video below and/or its supplementary reading located below the video. Code everything you see there. Feel free to stop, pause, rewind or fast forward through the content to keep pace.
+## Tasks for LearnIDE Environment Users
+
+1. Click the "OPEN IDE" button
+
+## Tasks for Local Environment Users
+
+1. Fork this repository.
+2. Clone your fork locally.
+3. `cd` into the local repo you just cloned.
+
+## Process
+
+Code along with the provided video below and/or its supplementary reading located below the video. Code everything you see there. Feel free to stop, pause, rewind or fast forward through the content to keep pace.
 
 <iframe width="640" height="480" src="//www.youtube.com/embed/xrDw6I4MSBk?rel=0" frameborder="0" allowfullscreen></iframe>
 
