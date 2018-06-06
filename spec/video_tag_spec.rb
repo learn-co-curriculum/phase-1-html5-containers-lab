@@ -1,6 +1,21 @@
 require 'pry'
 
 RSpec.describe 'index.html' do
+
+  it 'has a valid document structure' do
+
+  expect(html_file_contents).to include('<html')
+  expect(html_file_contents).to include('</html>')
+
+  validator = W3CValidators::NuValidator.new
+  html = File.read('./index.html')
+  results = validator.validate_text(html)
+
+  error_messages = "Expected a valid document but got:\n#{results.errors.collect{|e| e.to_s}.join("\n")}"
+
+  expect(results.errors).to be_empty, error_messages
+end
+
   context 'within <body>' do
     it 'contains an <header> tag' do
       header = parsed_html.search('header')[0]
@@ -24,7 +39,6 @@ RSpec.describe 'index.html' do
       it 'contains three separate <section> elements' do
         section = parsed_html.search('section')
         expect(section).to_not be_nil, "No <section> tags were found"
-        expect(html_file_contents).to include('</section>'), "No closing </section> tag was found"
         expect(section.length).to be >= 3, "Page should contain 3 sets of section tags"
       end
 
@@ -50,6 +64,7 @@ RSpec.describe 'index.html' do
 
       it 'contains a <figure> tag within the second <section>' do
         section = parsed_html.search('section')[1]
+        expect(section).to_not be_nil, "No <section> tags were found"
         figure = section.children.select {|ch| ch.name == 'figure'}[0]
 
         expect(figure).to_not be_nil, "No <figure> tag found within the second section"
