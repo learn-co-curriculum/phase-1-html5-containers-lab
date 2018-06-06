@@ -17,19 +17,19 @@ RSpec.describe 'index.html' do
 end
 
   context 'within <body>' do
-    it 'contains an <header> tag' do
+    it 'contains a <header> tag' do
       header = parsed_html.search('header')[0]
       expect(header).to_not be_nil, "No <header> tag was found"
       expect(html_file_contents).to include('</header>'), "No closing </header> tag was found"
     end
 
-    it 'contains an <nav> tag' do
+    it 'contains a <nav> tag' do
       nav = parsed_html.search('nav')[0]
       expect(nav).to_not be_nil, "No <nav> tag was found"
       expect(html_file_contents).to include('</nav>'), "No closing </nav> tag was found"
     end
 
-    it 'contains an <main> tag' do
+    it 'contains a <main> tag' do
       main = parsed_html.search('main')[0]
       expect(main).to_not be_nil, "No <main> tag was found"
       expect(html_file_contents).to include('</main>'), "No closing </main> tag was found"
@@ -76,7 +76,7 @@ end
       end
     end
 
-    it 'contains an <footer> tag' do
+    it 'contains a <footer> tag' do
       footer = parsed_html.search('footer')[0]
       expect(footer).to_not be_nil, "No <footer> tag was found"
       expect(html_file_contents).to include('</footer>'), "No closing </footer> tag was found"
@@ -89,7 +89,7 @@ end
         expect(html_file_contents).to include('</address>'), "No closing </address> tag was found"
       end
 
-      it 'contains an <details> tag' do
+      it 'contains a <details> tag' do
         details = parsed_html.search('details')[0]
         expect(details).to_not be_nil, "No <details> tag was found"
         expect(html_file_contents).to include('</details>'), "No closing </details> tag was found"
