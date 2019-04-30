@@ -4,7 +4,7 @@
 
 In HTML5, there are many new tags that help us describe _what kind of content_
 exists within a specific tag. These are referred to as _semantic_ elements. In
-this lesson, we will be introducing some of the most useful.
+this lesson, we will be introducing some of the most useful tags.
 
 
 ## Objectives
