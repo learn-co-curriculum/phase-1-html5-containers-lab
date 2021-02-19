@@ -210,5 +210,3 @@ understand than `div` and `span` tags.
 There are more semantic tags to explore, some of which you've already used! Tags
 such as `form` and `table` are semantic as well, as they describe the contents
 within.
-
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/html5-semantic-containers-code-along' title='HTML5 Semantic Containers Code-along'>HTML5 Semantic Elements Lab</a> on Learn.co and start learning to code for free.</p>
