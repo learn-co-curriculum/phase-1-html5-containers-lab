@@ -60,7 +60,6 @@ Commonly, a website with many different pages will have the same header and
 footer content on each page...the only content that changes is what is in
 between.
 
-
 ### `<nav>` Tags
 
 Typically, inside or just below the header section of a page are navigation
@@ -191,7 +190,7 @@ or structure, but the description of the content contained on the page.
 Using semantic tags serves multiple functions. They provide a greater
 _readability_ for yourself or anyone else who may edit an HTML document in the
 future. They also make it easier to _style_ your pages. As a bonus, they help
-search engines identify and categorize content on websites. 
+search engines identify and categorize content on websites.
 
 When using Cascading Style Sheets, we can easily set up styling for _just_ the
 specific semantic elements. These tags are more natural to write and faster to
