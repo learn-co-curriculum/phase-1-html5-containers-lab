@@ -170,8 +170,8 @@ some example content for a real estate agency. However, most of the HTML tags
 within the `body` are non-semantic `div` and `span` tags.
 
 Your task is to read through the provided comments and add in the appropriate
-semantic tags. Run `learn` to test your work and use the provided error
-messaging to work through the tests. When finished, run `learn submit`.
+semantic tags. Run `learn test` to test your work and use the provided error
+messaging to work through the tests.
 
 **Note:** there are a _few_ semantic tags in `index.html` not explicitly
 discussed in this readme. Use the comments to figure out what tag you will have
